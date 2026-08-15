@@ -30,3 +30,11 @@ Compile the source code using:
 
 ```bash
 g++ src/main.cpp -o fileReversal
+## Flag 0 - Block Reversal
+
+Flag 0 performs block-wise reversal of the input file.
+
+Usage:
+
+```bash
+./fileReversal <input-file> 0 <block-size>
