@@ -47,3 +47,12 @@ Usage:
 
 ```bash
 ./fileReversal <input-file> 1
+
+## Flag 2 - Partial Range Reversal
+
+Flag 2 reverses the portions of the file outside a specified range while preserving the selected range.
+
+Usage:
+
+```bash
+./fileReversal <input-file> 2 <start-index> <end-index>
