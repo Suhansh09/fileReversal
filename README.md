@@ -22,3 +22,11 @@ The program supports three file reversal modes:
 - Flag 0: Block-wise file reversal using a specified block size.
 - Flag 1: Complete file reversal.
 - Flag 2: Partial range reversal using specified start and end indices.
+## Build Instructions
+
+The project uses the GNU C++ compiler.
+
+Compile the source code using:
+
+```bash
+g++ src/main.cpp -o fileReversal
