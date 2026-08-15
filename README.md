@@ -38,3 +38,12 @@ Usage:
 
 ```bash
 ./fileReversal <input-file> 0 <block-size>
+
+## Flag 1 - Full File Reversal
+
+Flag 1 reverses the complete contents of the input file.
+
+Usage:
+
+```bash
+./fileReversal <input-file> 1
