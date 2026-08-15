@@ -56,3 +56,15 @@ Usage:
 
 ```bash
 ./fileReversal <input-file> 2 <start-index> <end-index>
+
+## Verification
+
+The project includes verification functionality to check whether the processed file has been generated correctly.
+
+Verification checks include:
+
+- File existence
+- File size
+- Processed file contents
+- File permissions
+- Correctness according to the selected reversal flag
