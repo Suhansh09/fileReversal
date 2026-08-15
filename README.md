@@ -15,3 +15,10 @@ The project implements file reversal and verification operations using C++ and L
 ## Git Lab
 
 This repository demonstrates Git concepts including commits, branches, merging, stash, reflog, conflict resolution, and tagging.
+## File Reversal Modes
+
+The program supports three file reversal modes:
+
+- Flag 0: Block-wise file reversal using a specified block size.
+- Flag 1: Complete file reversal.
+- Flag 2: Partial range reversal using specified start and end indices.
