@@ -3,3 +3,10 @@
 The verification component checks whether the generated output file was
 processed correctly according to the selected reversal mode. It also
 checks file sizes and reports relevant file and directory information.
+
+## Full File Verification
+
+Full-file verification checks whether the generated output represents the
+complete reversal of the original input. The verification compares the
+output against the expected reversed data while also checking that both
+files have the same size.
