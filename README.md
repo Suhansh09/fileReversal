@@ -148,3 +148,9 @@ changes when switching between branches. The changes can later be
 restored using the stash commands without creating an intermediate
 commit.
 
+## Merge Conflict Resolution
+
+When changes from different branches modify the same part of a file,
+Git may report a merge conflict. The conflicting section is manually
+resolved, the resolved file is staged, and the merge is completed with
+a merge commit.
