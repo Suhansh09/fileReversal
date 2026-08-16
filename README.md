@@ -105,3 +105,10 @@ reversed.
 
 Only the selected range is modified during partial reversal. Data outside
 the specified range retains its original ordering.
+
+### Partial Reversal Verification
+
+The result of a partial reversal can be verified by checking that the
+selected range appears in reverse order while all other file contents
+remain unchanged.
+
