@@ -95,3 +95,9 @@ expected reversed representation of the original input file.
 Partial reversal processes only a selected portion of the input file.
 The specified range is reversed while the remaining contents of the file
 are kept unchanged.
+
+### Partial Reversal Range Selection
+
+The partial reversal operation uses a specified starting position and
+ending position to identify the portion of the file that should be
+reversed.
