@@ -140,3 +140,11 @@ Changes are merged into main after the corresponding feature work is
 completed. This project uses separate branches for full reversal,
 partial reversal, block reversal, file verification, and conflict
 resolution work.
+
+## Stashing Unfinished Work
+
+Git stash is used to temporarily save unfinished working-directory
+changes when switching between branches. The changes can later be
+restored using the stash commands without creating an intermediate
+commit.
+
