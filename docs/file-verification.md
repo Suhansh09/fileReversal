@@ -10,3 +10,10 @@ Full-file verification checks whether the generated output represents the
 complete reversal of the original input. The verification compares the
 output against the expected reversed data while also checking that both
 files have the same size.
+
+## Block Reversal Verification
+
+Block reversal verification checks each block independently. The expected
+reversed contents of every block are compared with the corresponding
+portion of the generated output to ensure that the block boundaries and
+ordering are preserved.
