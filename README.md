@@ -101,3 +101,7 @@ are kept unchanged.
 The partial reversal operation uses a specified starting position and
 ending position to identify the portion of the file that should be
 reversed.
+### Partial Reversal Unchanged Regions
+
+Only the selected range is modified during partial reversal. Data outside
+the specified range retains its original ordering.
