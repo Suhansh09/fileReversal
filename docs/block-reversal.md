@@ -15,3 +15,9 @@ block-based processing.
 If the file size is not an exact multiple of the selected block size,
 the remaining bytes form the final block. This final block is processed
 separately without discarding any input data.
+
+## Verification
+
+Block reversal can be verified by checking each block independently.
+The bytes within every processed block should appear in reverse order,
+while all file data should remain accounted for in the resulting output.
