@@ -122,3 +122,8 @@ their changes are reviewed.
 
 Git history can be recovered using reflog when a commit is no longer
 reachable from a branch reference.
+
+## Conflict Resolution Notes
+
+This section documents the conflict resolution workflow used in the
+file reversal project.
