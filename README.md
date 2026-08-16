@@ -154,3 +154,10 @@ When changes from different branches modify the same part of a file,
 Git may report a merge conflict. The conflicting section is manually
 resolved, the resolved file is staged, and the merge is completed with
 a merge commit.
+
+## Release Process
+
+A completed version of the project is identified using a Git annotated
+tag. The v1.0 tag is used to mark the first release after completing
+the required feature branches, Git history exercises, and conflict
+resolution workflow.
