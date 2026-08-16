@@ -17,3 +17,6 @@ bin/
 
 # OS files
 .DS_Store
+
+# Project executable
+fileReversal	
