@@ -17,3 +17,10 @@ Block reversal verification checks each block independently. The expected
 reversed contents of every block are compared with the corresponding
 portion of the generated output to ensure that the block boundaries and
 ordering are preserved.
+
+## Partial Reversal Verification
+
+Partial reversal verification checks the different regions of the file
+separately. The selected range is checked according to the expected
+partial-reversal behavior, while the remaining regions are checked to
+ensure their expected ordering is preserved.
