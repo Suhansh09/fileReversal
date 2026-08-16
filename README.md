@@ -89,3 +89,9 @@ original data remains available for verification.
 
 The generated output can be verified by comparing its contents with the
 expected reversed representation of the original input file.
+
+## Partial Reversal
+
+Partial reversal processes only a selected portion of the input file.
+The specified range is reversed while the remaining contents of the file
+are kept unchanged.
