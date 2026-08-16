@@ -78,3 +78,9 @@ the original file.
 The full reversal operation processes the complete input file and
 produces a reversed version of its contents. The original input file
 remains unchanged.
+
+### Full Reversal Input and Output
+
+The full reversal operation reads the complete input file and generates
+the reversed content as output. The input file is preserved so that the
+original data remains available for verification.
