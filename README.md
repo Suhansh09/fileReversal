@@ -112,3 +112,8 @@ The result of a partial reversal can be verified by checking that the
 selected range appears in reverse order while all other file contents
 remain unchanged.
 
+## Git Workflow
+
+The project uses separate feature branches for reversal and verification
+work. Completed feature branches are merged into the main branch after
+their changes are reviewed.
