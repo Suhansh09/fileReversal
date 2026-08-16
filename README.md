@@ -68,3 +68,8 @@ Verification checks include:
 - Processed file contents
 - File permissions
 - Correctness according to the selected reversal flag
+## Full File Reversal
+
+The full file reversal mode reverses the complete contents of the input
+file and writes the reversed data to the output file while preserving
+the original file.
