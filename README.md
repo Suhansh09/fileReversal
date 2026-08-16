@@ -126,5 +126,9 @@ reachable from a branch reference.
 ## Conflict Resolution Notes
 
 This section documents the conflict resolution workflow used in the
+HEAD
 file reversal project.This section describes how conflicting project changes are reviewed and
 combined before completing a merge.
+
+file reversal project.
+feature/conflict-documentation
