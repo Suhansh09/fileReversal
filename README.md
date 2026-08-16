@@ -132,3 +132,11 @@ combined before completing a merge.
 
 file reversal project.
 feature/conflict-documentation
+
+## Branching Strategy
+
+Feature branches are used to isolate individual areas of development.
+Changes are merged into main after the corresponding feature work is
+completed. This project uses separate branches for full reversal,
+partial reversal, block reversal, file verification, and conflict
+resolution work.
