@@ -1195,3 +1195,5 @@ int main(int argc, char *argv[]){
         return 1;
     }
 }
+
+//// Perform block-wise reversal according to the selected flag
