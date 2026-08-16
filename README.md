@@ -84,3 +84,8 @@ remains unchanged.
 The full reversal operation reads the complete input file and generates
 the reversed content as output. The input file is preserved so that the
 original data remains available for verification.
+
+### Full Reversal Verification
+
+The generated output can be verified by comparing its contents with the
+expected reversed representation of the original input file.
