@@ -73,3 +73,8 @@ Verification checks include:
 The full file reversal mode reverses the complete contents of the input
 file and writes the reversed data to the output file while preserving
 the original file.
+### Full Reversal Usage
+
+The full reversal operation processes the complete input file and
+produces a reversed version of its contents. The original input file
+remains unchanged.
