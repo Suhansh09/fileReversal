@@ -117,3 +117,9 @@ remain unchanged.
 The project uses separate feature branches for reversal and verification
 work. Completed feature branches are merged into the main branch after
 their changes are reviewed.
+
+## Verification Reporting
+
+The verification process reports whether the generated file contents are
+correctly processed and whether the input and output files have matching
+sizes.
