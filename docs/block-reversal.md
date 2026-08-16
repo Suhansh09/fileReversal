@@ -9,3 +9,9 @@ processed in manageable sections.
 The block size determines how many bytes are processed together during
 each reversal operation. A valid positive block size is required for
 block-based processing.
+
+## Final Block Handling
+
+If the file size is not an exact multiple of the selected block size,
+the remaining bytes form the final block. This final block is processed
+separately without discarding any input data.
